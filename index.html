@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌸 Navratri Special 2025 🌸</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🌸 Navratri – Daily Companion🌸</h1>
+
+  <!-- Countdown -->
+  <div id="countdown"></div>
+
+  <!-- Main Container -->
+  <div class="card" id="dailyCard">
+    <div class="left">
+      <img id="deviPhoto" src="day1.jpg" alt="Maa Durga">
+    </div>
+    <div class="right">
+      <h2 id="dayTitle"></h2>
+      <p id="dayDesc"></p>
+      <p><b>Outfit:</b> <span id="outfit"></span></p>
+      <p><b>Decoration:</b> <span id="decoration"></span></p>
+      <p><b>Prasadi:</b> <span id="prasadi"></span></p>
+      <div class="buttons">
+        <button id="prevBtn">⬅ Previous</button>
+        <button id="openAarti">✨ Aarti</button>
+        <button id="nextBtn">Next ➡</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Aarti Modal -->
+  <div id="aartiModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <pre id="aartiText"></pre>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
